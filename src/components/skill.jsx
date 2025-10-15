@@ -3,19 +3,19 @@ import './skill.css'
 export function SkillComponent(){
   return(
     <>
-      <div class="skill-div">
+      <div className="skill-div">
 <h2 id="skill">My Skills</h2>
 
-<button class="html">HTML</button>
-<button class="css">CSS</button>
-<button class="js">JS</button>
-<button class="react">React</button>
-<button class="vite">Vite</button>
+<button className="html">HTML</button>
+<button className="css">CSS</button>
+<button className="js">JS</button>
+<button className="react">React</button>
+<button className="vite">Vite</button>
 </div>
 
 
-<p class="version">Version Control and Deployment</p>
-<div class="div-li">
+<p className="version">Version Control and Deployment</p>
+<div className="div-li">
   <li>Git</li>
 <li>GitHub</li>
 <li>Netlify</li>
@@ -24,7 +24,7 @@ export function SkillComponent(){
 </div>
 
     
-    <p class="skill-content">I’m confident working with React to build interactive components, manage state, and connect apps to APIs.</p>
+    <p className="skill-content">I’m confident working with React to build interactive components, manage state, and connect apps to APIs.</p>
     
     </>
   );

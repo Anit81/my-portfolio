@@ -4,8 +4,8 @@ export function AboutComponent(){
   return(
     <>
       <h1 id="about">About Me</h1>
-<div class="btn-btn">
-<p class="about">
+<div className="btn-btn">
+<p className="about">
 Hi! I’m Faustina, a dedicated Frontend Developer and React Enthusiast who loves turning creative ideas into clean, responsive, and user-friendly web experiences.
 
 I specialize in building modern interfaces using React, JavaScript, HTML, and CSS, with a strong focus on performance, accessibility, and mobile-first design.
@@ -19,7 +19,7 @@ I’m currently open to Frontend Developer roles, remote opportunities, and coll
 Let’s connect and create something amazing together!
 </p>
 
-<div class="my-work">
+<div className="my-work">
   <button><a href="#project">🔗 View My Work</a></button>
 <button> Download Resume</button> 
 </div>
