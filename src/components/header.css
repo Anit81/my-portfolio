@@ -52,7 +52,7 @@ nav ul li a:hover {
   margin-left: 15px;
 }
 /*.....mobile responsiveness .....*/
-@media (max-width: 480px) {
+@media (max-width: 900px) {
   
   .menu-icon {
     display: block;
