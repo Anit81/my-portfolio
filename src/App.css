@@ -1,0 +1,127 @@
+
+
+@media (max-width: 1024px) {
+  .project-div {
+    grid-template-columns: repeat(3, 1fr);
+  }
+      .project-imgm{
+        height: 32%;
+      }
+      .project-imgf{
+        height: 32%;
+      }
+      .project-imgt{
+        height: 44%;
+      }
+      .project-imgg{
+        height: 46%;
+      }
+      .project-img{
+        height: 25%;
+      }
+      .project-imgw{
+        height: 32%;
+      }
+}
+
+  
+      @media (max-width:763px){
+        .div-content{
+          flex-direction: column;
+        }
+         img{
+        object-fit: contain;
+        width:100%;
+        margin-top: 30px;
+      }
+        .span-div{
+          width:100%;
+        }
+        .content{
+        width:80%;
+        margin:0 auto;
+        font-size:17px;
+        }
+        .project-div{
+          grid-template-columns: 1fr 1fr;
+          border-radius: 8px;
+        }
+        .project-div div{
+          border-radius: 15px;
+          text-align: center;
+        }
+        .contact-p{
+        width: 80%;
+      }
+      .project-imgf{
+        height: 36%;
+      }
+      .project-imgt{
+        height: 51%;
+      }
+      .project-imgg{
+        height: 36%;
+      }
+      .project-img{
+        height: 40%;
+      }
+      .project-imgw{
+        height: 45%;
+      }
+      
+      }
+      
+      @media (max-width:480px){
+        nav ul{
+          display: none;  
+          flex-direction: column;
+          position: absolute;
+          top: 64px;
+          right: 15px;
+          width: 50%;
+          background: black;
+          color: black;
+          padding: 25px;
+          gap: 30px;
+        }
+         .div-content{
+          flex-direction: column;
+        }
+        .span-div{
+          width:100%;
+        }
+        .content{
+        width:80%;
+        margin:0 auto;
+        font-size:17px;
+        }
+        .project-div{
+          grid-template-columns: 1fr;
+          border-radius: 8px;
+          
+        }
+        .project-div div{
+          border-radius: 15px;
+          
+        }
+          .contact-p{
+        width: 100%;
+      }
+      .skill-div button{
+        margin:0 10px;
+      }
+      .project-imgg{
+        height: 45%;
+      }
+     .project-imgw{
+    height: 38%;
+     }
+     /* Show hamburger icon on mobile */
+  .menu-icon {
+    display: block;
+    margin-left: 70%;
+  }
+
+      }
+      
+

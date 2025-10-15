@@ -1,0 +1,67 @@
+ .project-div{
+        display:grid;
+      grid-template-columns:1fr 1fr 1fr;
+        color:white;
+        margin-top:100px;
+        row-gap:20px;
+        column-gap:15px;
+        width:100%;
+        border:3px solid blue;
+      
+      }
+      h3{
+        margin-top:100px;
+        color:white;
+        text-align:center;
+        font-size:30px;
+      }
+      .project-div div{
+        border:3px solid red;
+        border-radius: 15px;
+        
+      }
+      .project-div, button{
+        border-radius:8px;
+        border:none;
+        padding:10px 18px;
+        text-align:center;
+        margin-top:20px;
+      }
+      .project-div button{
+        margin-bottom: 15px;
+      }
+      .project-name{
+        text-align:center;
+        font-weight:400;
+      }
+      .first-tech{
+        padding-top:8px;
+      }
+      .second-tech{
+        padding-top:61px;
+      }
+      .third-tech{
+        padding-top:80px;
+      }
+      .fourth-tech{
+        padding-top:77px;
+      }
+      .fifth-tech{
+        padding-top:62px;
+      }
+      .project-imgf{
+        height: 40%;
+      }
+      .project-imgw{
+        height: 39%;
+      }
+
+      .project-imgg{
+        height: 50%;
+      }
+      .project-imgm{
+        height: 43%;
+      }
+      .project-imgt{
+        height: 50%;
+      }

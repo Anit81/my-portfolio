@@ -1,0 +1,32 @@
+ h4{
+        text-align:center;
+        color:white;
+        margin-top:80px;
+        font-size:30px;
+        font-weight:300px;
+      }
+      .contact{
+        color:white;
+        text-align: center;
+      }
+      .contact, p{
+        color:white;
+        font-size:18px;
+      }
+      .contact span{
+        display:block;
+        list-style:none;
+        color:white;
+      }
+      .contact, a{
+        text-decoration:none;
+        color:blue;
+        
+      }
+      .contact-p{
+        width: 50%;
+      }
+      footer{
+        color:white;
+        margin-top:40px;
+      }

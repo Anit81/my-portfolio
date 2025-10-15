@@ -1,0 +1,52 @@
+ h2{
+        padding-top:30px;
+        color:white;
+        text-align:center;
+        margin-bottom:30px;
+      }
+      .skill-div{
+        text-align:center;
+        margin-top:60px;
+      }
+      .skill-div button{
+        margin:0 20px;
+        font-size:15px;
+      }
+      .css{
+        border-radius:70px;
+        padding:25px 20px
+      }
+      .html{
+        border-radius:70px;
+        padding:25px 15px
+      }
+      .js{
+         border-radius:70px;
+        padding:25px 25px
+      }
+      .react{
+        border-radius:70px;
+        padding:25px 15px
+      }
+      .vite{
+        border-radius:70px;
+        padding:25px 20px
+      }
+      .version{
+        font-size:25px;
+        color:white;
+        margin-top:70px;
+        text-align:center;
+        font-weight:400;
+      }
+      .div-li{
+        color:white;
+        margin-left:40px;
+        font-size:15px;
+      }
+      .skill-content{
+        color:white;
+        font-size:15px;
+        
+      }
+     

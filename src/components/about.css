@@ -1,0 +1,22 @@
+ .about{
+        color:white;
+        width:80%;
+        margin:0 auto;
+        font-size:17px;
+      }
+      h1{
+        text-align:center;
+        font-size:30px;
+        color:white;
+        margin-top: 90px;
+      }
+      
+      .my-work{
+        text-align:center;
+        color:white;
+        padding:10px;
+      }
+      .my-work,button{
+        color:white;
+      }
+      

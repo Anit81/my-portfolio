@@ -1,0 +1,92 @@
+/*general header .................*/
+.general {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  padding: 10px 20px;  
+  background-color: black;
+  color: white;
+  z-index: 100;
+}
+
+/* Brand name  logo */
+.general .name {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #646cff;
+}
+
+
+nav ul {
+  display: flex;         
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #646cff;
+}
+.menu-icon {
+  display: none;      
+  font-size: 2.5rem; 
+  width: 40px;         
+  height: 40px;       
+  cursor: pointer;
+  color: white;
+  flex-shrink: 0;     
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+}
+/*.....mobile responsiveness .....*/
+@media (max-width: 480px) {
+  
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-menu {
+    position: fixed;
+    top: 64px;
+    right: 0;
+    width: 200px;
+    height: calc(100vh - 64px);
+    background-color: black;
+    transform: translateX(100%);   
+    transition: transform 0.3s ease-in-out;
+    padding: 25px;
+    border-radius: 8px 0 0 8px;
+  }
+
+  
+  .nav-menu.active {
+    transform: translateX(0);
+  }
+
+  
+  .nav-menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-menu ul li a {
+    font-size: 18px;
+    color: white;
+  }
+}
