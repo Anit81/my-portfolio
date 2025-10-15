@@ -51,8 +51,8 @@ nav ul li a:hover {
   justify-content: center;
   margin-left: 15px;
 }
-/*.....mobile responsiveness .....*/
-@media (max-width: 900px) {
+/*.....mobile responsiveness ....*/
+@media (max-width: 768px) {
   
   .menu-icon {
     display: block;
