@@ -50,7 +50,7 @@ export function ProjectComponent(){
     
   <div>
      <p class="project-name">✅ Todo List App</p>
-          <img src="src/assets/todo-list.png" alt="Todo List" className='project-imgt' />
+          <img src="images/todo-list.png" alt="Todo List" className='project-imgt' />
           <p>A task manager that allows users to add, delete, and mark tasks as complete.Built with React’s useState and useEffect hooks to manage tasks and save them in Local Storage.</p>
           <p class="fifth-tech"><strong>Tech:</strong> React, CSS, Local Storage</p>
           <button><a href='https://my-react-todo-list-app.vercel.app/'>Live Demo</a> </button>

@@ -17,7 +17,7 @@ I’m passionate about turning ideas into real, functional websites that work be
       </div>
 
   <div>
-   <img src="src/assets/1760065664000.png" />
+   <img src="images/1760065664000.png" />
    </div>
 </div>
     
