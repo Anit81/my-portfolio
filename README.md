@@ -32,7 +32,7 @@ Soft Skills: Problem Solving, Team Collaboration, Time Management, Attention to 
 📝 To-Do List App: Add, mark complete, and delete tasks easily.
 
 
-🔗 Explore all projects here: My Portfolio
+🔗 Explore all projects here: https://my-portfolio-alpha-liard-67.vercel.app/
 
 
 ---
