@@ -20,7 +20,7 @@ Let’s connect and create something amazing together!
 </p>
 
 <div className="my-work">
-  <button><a href="#project">🔗 View My Work</a></button>
+  <button><a href="#project"> View My Work</a></button>
 <button> Download Resume</button> 
 </div>
 </div>
