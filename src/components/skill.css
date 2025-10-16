@@ -10,6 +10,7 @@
       }
       .skill-div button{
         display: flex;
+        flex-direction: row;
         margin:0 20px;
         font-size:15px;
         font-weight: 700;
