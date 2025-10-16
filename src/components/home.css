@@ -21,7 +21,7 @@
       button{
         margin-top:30px;
         padding:10px;
-        background-color:red;
+        background-color:rgb(219, 21, 21);
         border:none;
         margin-right:5px;
       }
@@ -37,5 +37,29 @@
         
       }
       .greetings{
-        color:red;
+        color:rgb(219, 21, 21);
       }
+      @media(max-width:768px){
+        .div-content{
+          flex-direction: column;
+        }
+        .span-div{
+          width: 90%;
+        }
+        img{
+        width:100%;
+        margin-top: 30px;
+      }
+      }
+       @media(max-width:480px){
+        .div-content{
+          flex-direction: column;
+        }
+        .span-div{
+          width: 950%;
+        }
+        img{
+        width:100%;
+        margin-top: 30px;
+      }
+    }
