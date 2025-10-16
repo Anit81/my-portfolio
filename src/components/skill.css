@@ -54,11 +54,37 @@
       }
       @media (max-width:768px) {
          .skill-div button{
-          margin:0 10px;
+          margin:0 10px ;
           font-weight: 100;
         }
+        .html{
+        padding:20px 10px
       }
-      @media(max-width:480px){
+      .css{
+        padding:20px 15px
+      }
+      .js{
+        padding:20px 20px
+      }
+      .react{
+        padding:20px 10px
+      }
+      .vite{
+        padding:20px 15px
+      }
+      }
+
+        
+         @media (max-width:480px) {
+  .skill-div button {
+    margin: 0 10px;
+    font-weight: 100 ;
+  }
+}
+      
+     
+
+      @media(max-width:320px){
         .skill-div button{
           margin:0 8px;
           font-weight: 100;
@@ -66,4 +92,4 @@
         
 
       }
-     
+    
